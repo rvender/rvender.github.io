@@ -1,0 +1,31 @@
+*, *::after, *::before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+a {
+	outline: none;
+}
+
+.hidden {
+	position: absolute;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	pointer-events: none;
+}
+
+.message {
+	font-weight: bold;
+	color: #914a58;
+	background: #f0d4d8;
+	font-size: 0.85em;
+	margin: 0;
+	padding: 1em;
+	display: none;
+}
+
+/* main {
+	max-width: 1885px;
+	display: inline-block;
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
+} */
